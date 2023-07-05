@@ -1,14 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Total from "./components/Total";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>GSG React Tasks TT9 || Wesam Abu Taima</p>
-      </header>
+      <>
+        <h2>Task 01 || React (events | state) Task</h2>
+        <Total />
+      </>
     </div>
   );
 }
